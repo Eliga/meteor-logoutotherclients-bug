@@ -1,0 +1,19 @@
+<head>
+  <title>logout</title>
+</head>
+
+<body>
+  {{> hello}}
+  {{> users}}
+</body>
+
+<template name="hello">
+  <h1>Hello {{loginButtons}} !</h1>
+
+  <input type="button" value="Logout Others" />
+</template>
+
+
+<template name="users">
+{{#each users}}{{username}} {{/each}}
+</template>
