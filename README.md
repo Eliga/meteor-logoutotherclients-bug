@@ -1,7 +1,7 @@
 meteor-logoutotherclients-bug
 =============================
 
-Crash while using LogoutOtherClients whith subscription to list of Users, Meteor 0.6.6.2
+Server problem while using LogoutOtherClients with subscription to list of Users, Meteor 0.6.6.2
 
 $ mrt 
 
